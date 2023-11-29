@@ -1,0 +1,62 @@
+*
+{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+@media screen and (max-width:1179px)
+{
+
+body
+{
+    background-color: black;
+    background-image: url(background-home-mobile.jpg);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+.blur
+{
+    background: rgb(151,151,151,0);
+    backdrop-filter: blur(100px);
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    width: 70%;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 16px;
+    letter-spacing: 2.7px;
+}
+
+.close
+{
+    margin-top: 15%;
+    margin-left: 75%;
+}
+
+.nav ul
+{
+    margin-top: 50%;
+    list-style-type: none;
+}
+
+.nav li
+{
+    
+    margin-left: 10%;
+    margin-top: 15%
+}
+
+.nav a
+{
+    color: white;
+    text-decoration: none;
+}
+
+}
