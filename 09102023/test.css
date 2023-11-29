@@ -1,0 +1,53 @@
+div
+{
+width: 150px;
+height: 150px;
+}
+
+.div1
+{
+    background-color: aqua;
+    float: left;
+    text-align: center;
+    vertical-align: bottom;
+}
+
+.div2
+{
+    background-color: blueviolet;
+    clear: left;
+}
+
+.nav
+{
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    list-style-type: none;
+    background-color: burlywood;
+    overflow: hidden;   
+}
+
+.nav li
+{
+    float: left;
+    margin-left: 3px;
+}
+
+.nav_vertical
+{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    background-color: cadetblue;
+    width: 100px;
+}
+
+.nav_vertical li a
+{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    padding: 10px 10px;
+}

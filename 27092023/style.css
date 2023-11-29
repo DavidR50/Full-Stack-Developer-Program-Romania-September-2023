@@ -1,0 +1,14 @@
+body{
+    background-color: aqua; 
+    width: 500px; height: 200px;
+}
+div{background-color: red;
+width: 500px;
+height: 200px
+}
+.RedGreenBlue{
+    background-color: black;
+    background-color: rgb(red, green, blue);
+width: 50px; 
+height: 50px;
+}

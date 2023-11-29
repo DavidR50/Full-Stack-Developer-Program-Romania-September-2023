@@ -1,0 +1,19 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+div{
+width: 50%;
+height: 50%;
+float: middle;
+}
+.div
+{
+    background-color: red;
+    border: 1px solid blue;
+    text-align: center
+
+}

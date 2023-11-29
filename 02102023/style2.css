@@ -1,0 +1,25 @@
+*   
+{box-sizing: border-box;
+color: black;}
+
+body{
+    font-family: 'Playfair Display', serif;
+}
+
+/* p{
+    background-color: yellow;
+    font-size: medium; 
+    font-weight: bold;
+}
+.p1{
+    width: 300px;
+    margin-inline: auto;
+}
+.p2{
+    background-color:chocolate;} */
+     /* classes have priority  */
+
+.font_Arial
+{
+    font-family: Arial, Helvetica, sans-serif;
+}

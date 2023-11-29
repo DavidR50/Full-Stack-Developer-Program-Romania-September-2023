@@ -1,0 +1,12 @@
+body
+{
+    background-image: url("FuW385qWcAAqamH.jpg");
+    background-size: contain;
+   /* contain within the set pixels */
+    width: 500px;
+height: 300px;
+background-repeat: no-repeat;
+}
+
+/* background-size: cover; acopera tot ecranul
+/* background-repeat daca sa se repete poza pe ecran pana acopera tot ecranul sau nu */
