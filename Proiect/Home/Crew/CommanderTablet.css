@@ -1,0 +1,179 @@
+*
+{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width:1024px) 
+{
+
+body
+{
+    background-image: url(background-crew-tablet.jpg);
+    background-repeat: no-repeat;
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+}
+
+.main
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: 3%;
+    /* border: 1px solid white; */
+}
+
+.navbar
+{
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* border: 3px solid red; */
+}
+
+.nav ul
+{
+    list-style-type: none;
+    display: inline;
+    /* border: 2px solid blue; */
+}
+
+.nav li
+{
+    float: left;
+    margin-left: 30px;   
+    /* border: 2px solid yellow;     */
+}
+
+.blur
+{
+    background: rgba(255, 255, 255, 0.04);
+    backdrop-filter: blur(40.774227142333984px);
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: auto;
+    width: 65%;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 14px;
+    letter-spacing: 2.36px;
+}
+
+.nav a
+{
+    color: white;
+    text-decoration: none;
+}
+
+.nav
+{
+    margin-left: 10%;
+}
+
+.logo
+{
+    align-items: center;
+    margin-top: 5px;
+}
+
+.crew
+{
+    text-decoration-line: underline;
+    text-underline-offset: 40px;
+    text-decoration-color: white;
+    text-decoration-thickness: 3px;
+}
+
+.heading1
+{
+    margin-left: 1.5rem;
+    margin-top: 1rem;
+    font-size: 20px;
+    color: white;
+    font-family: 'Barlow Condensed', sans-serif;
+    letter-spacing: 3.38px;
+    margin-top: 2rem;
+}
+
+.pick
+{
+    color: rgb(255,255,255,0.25);
+    font-weight: bold;
+}
+
+.role
+{
+    text-align: center;
+    margin-top: 3rem;
+    font-size: 24px;
+    font-family: 'Bellefair', serif;
+    color: rgb(255,255,255,0.5);
+}
+
+.name
+{
+    text-align: center;
+    margin-top: 0.5rem;
+    font-size: 40px;
+    font-family: 'Bellefair', serif;
+    color: white;
+}
+
+.description
+{
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 16px;
+    line-height: 28px;
+    color: #D0D6F9;
+    width: 60%;
+    margin-left: 20%;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+.crewselect
+{
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.crewpage1
+{
+    width: 0.8rem;
+    height: 0.8rem;
+    display: inline-block;
+    margin: 10px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.crewpage
+{
+    width: 0.8rem;
+    height: 0.8rem;
+    display: inline-block;
+    margin: 10px;
+    border-radius: 50%;
+    background-color: #D0D6F9;
+}
+
+.crewpage:hover
+{
+    background-color: white;
+}
+
+.commander
+{
+    width: 17rem;
+    height: 30rem;
+    margin-top: 20rem;
+    margin-left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+}
